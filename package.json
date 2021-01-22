@@ -1,1 +1,24 @@
-{"name":"preact-hydratation-bug","version":"1.0.0","private":true,"description":"Preact Hydratation Bug","keywords":["gatsby"],"scripts":{"develop":"gatsby develop","start":"gatsby develop","build":"gatsby build","serve":"gatsby serve","clean":"gatsby clean"},"dependencies":{"gatsby":"^2.26.1","react":"^16.13.1","react-dom":"^16.13.1"}}
+{
+  "name": "preact-hydratation-bug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Preact Hydratation Bug",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "reproduce": "npx gatsby clean && npx gatsby build && npx gatsby serve",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-preact": "^4.6.0",
+    "preact": "^10.5.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
